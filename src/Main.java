@@ -7,7 +7,7 @@ public class Main {
 
         // Istenen sonuca ulasabilmek adina gerekli dongu ve mantiksal islemler gerceklestirildi.
         for (int i = 0; i < numbers.length; i++) {
-            sum += numbers.length/(1/counter);
+            sum += numbers.length / numbers[i] * (1 / counter);
         }
         // Mantiksal islemler ardindan sonuc kullanici ile paylasildi.
         System.out.println(sum / numbers.length);
